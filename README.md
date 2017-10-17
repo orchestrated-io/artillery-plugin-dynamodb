@@ -36,6 +36,7 @@ requires at least the rights given by the following IAM statement to the CloudWa
     "Effect": "Allow",
     "Action": [
         "dynamodb:PutItem",
+        "dynamodb:UpdateItem"
     ],
     "Resource": ["arn:aws:dynamodb:`region`:`account-id`:table/`table-name`"]
 }
