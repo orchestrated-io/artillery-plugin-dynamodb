@@ -37,7 +37,7 @@ requires at least the rights given by the following IAM statement to the CloudWa
     "Action": [
         "dynamodb:PutItem",
     ],
-    "Resource": [arn:aws:dynamodb:`region`:`account-id`:table/`table-name`"]
+    "Resource": ["arn:aws:dynamodb:`region`:`account-id`:table/`table-name`"]
 }
 ```
 
