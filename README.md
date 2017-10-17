@@ -28,7 +28,7 @@ To use:
 This will cause every latency to be published to the given DynamoDB table.
 
 This plugin assumes that the `aws-sdk` has been pre-configured, before it is loaded, with credentials and any other
-setting that may be required to successfully `Publish` to the SNS topic.  This activity
+setting that may be required to successfully `PutItem` to the DynamoDB table.  This activity
 requires at least the rights given by the following IAM statement to the CloudWatch API in order to report latencies:
 
 ```json
