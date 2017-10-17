@@ -1,5 +1,5 @@
 # artillery-plugin-dynamodb
-A plugin for artillery.io that publishes response data to DynamoDB.
+A plugin for artillery.io that publishes stats to DynamoDB.
 
 Based on [artillery-plugin-cloudwatch](https://github.com/Nordstrom/artillery-plugin-cloudwatch)
 
@@ -14,9 +14,8 @@ To use:
       "config": {
         "plugins": {
           "dynamodb": {
-              "table": "[INSERT_TOPIC_ARN]",
+              "table": "[INSERT_TABLE_NAME]",
               "createTable": [true|false]
-              "events": []
           }
         }
       }
